@@ -1,0 +1,757 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    direction: rtl;
+}
+
+ul {
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.grey-section {
+    background-color: rgb(102, 99, 99);
+}
+
+.container-menu-top-media {
+    padding-top: 20px;
+    width: 1200px;
+    margin: auto;
+}
+
+.box-media {
+    width: 33%;
+    padding: 15px 0;
+}
+
+.box-contact {
+    width: 33%;
+    padding: 10px 0;
+}
+
+.box-search {
+    width: 33%;
+    padding: 10px 0;
+}
+
+.box-media a {
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.box-media span {
+    color: silver;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.box-contact a {
+    color: rgb(149, 149, 26);
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.container-menu-top-links {
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.flex-menu-top-media {
+    justify-content: space-around;
+}
+
+.flex-menu-top-links {
+    justify-content: space-around;
+}
+
+.search-container {
+    position: relative;
+}
+  
+.search-input {
+    height: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    background-color: black;
+}
+  
+.fa-magnifying-glass {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: rgb(149, 149, 26);
+}
+
+.box-logo {
+    width: 20%;
+}
+
+.box-links {
+    width: 80%;
+    padding-top: 40px;
+}
+
+.box-logo img {
+    width: 250px;
+    height: 100px;
+}
+
+.box-links ul li  {
+    display: inline-block;
+}
+
+.box-links ul li a {
+    color: white;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.black-section {
+    background-color: black;
+}
+
+.container-wines-promo {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    background: url('images/backHero.png') center/cover;
+    position: relative;
+}
+
+.btn-cart {
+    color: white;
+    font-size: 22px;
+    top: 30px;
+    position: absolute;
+    padding: 15px;
+    border: 1px solid rgb(245, 219, 171);
+    border-radius: 15px;
+}
+
+.circle-num-orders {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 30px;
+    padding: 5px 8px;
+    border: 1px solid rgb(242, 22, 22);
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.container-menu-alcools {
+    position: absolute;
+    width: 800px;
+    margin: auto;
+    margin-top: -50px;
+    margin-right: 29%;
+}
+
+.alcool-icone {
+    width: 40px;
+    height: 20px
+}
+
+.flex-menu-inside {
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 0;
+    font-size: 22px;
+}
+
+.menu-inside span {
+    margin-right: 10px;
+    color: silver
+}
+
+.menu-inside:hover, .active {
+    color: rgb(189, 62, 104);
+}
+
+.container-alcools { 
+    padding: 60px 10px 40px 10px;
+    width: 1200px;
+    margin: auto;
+    background-color: #f7f7f7e8;
+}
+
+.flex-alcools {
+    justify-content: space-around;
+}
+
+.alcool-item {
+    padding: 20px 0;
+    width: 23%;
+    background-color: white;
+    box-shadow: 2px 0 wheat;
+}
+
+.alcool-img {
+    padding-top: 10px;
+    width: 100%;
+    height: 280px;
+}
+
+.alcool-item h2 {
+    text-align: center;
+}
+
+.flex-prices {
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+.box-price-desc {
+    color: gray;
+    font-size: 14px;
+}
+
+.box-price {
+    color: rgb(189, 62, 104);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div-stars {
+    padding: 0 24px 10px 0;
+}
+
+.red-star {
+    color: red;
+}
+
+.grey-star {
+    color: silver;
+}
+
+.flex-buttons {
+   justify-content: space-between;
+   padding-bottom: 5px;
+}
+
+.link-more {
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(16, 14, 14);
+}
+
+.btn-add-to-cart {
+   color: rgb(189, 62, 104);
+   padding: 6px 10px;
+   margin: 12px;
+   font-size: 18px;
+   font-weight: bold;
+   border: 1px silver solid;
+}
+
+.section-photo {
+  background: url('images/back-middle.png') center/cover no-repeat;
+  height: 500px;
+  width: 100%;
+}
+
+.container-foods {
+    padding: 20px;
+    width: 1200px;
+    margin: auto;
+}
+
+.foods-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.flex-foods {
+    padding-top: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.food-item {
+    width: 20%;
+    font-size: 22px;
+    color: rgb(237, 136, 60);
+    text-align: center;
+}
+
+.food-img {
+    width: 120px;
+    height: 70px;
+}
+
+.food-name {
+    padding: 10px 0 15px 0;
+}
+
+.div-pipes {
+    padding: 20px 0;
+    color: rgb(189, 62, 104);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.section-info {
+    background-color: #f7f7f2;
+}
+
+.container-info {
+  width: 1200px;
+  margin: auto;
+}
+
+.flex-info {
+    padding: 50px 0;
+    justify-content: space-around;
+}
+
+.info-item {
+    width: 18%;
+}
+
+.info-item .circle-info {
+    color: #fff;
+    background-color:rgb(171, 158, 85);
+    border-radius: 30px;
+    font-size: 25px;     
+    padding: 15px 20px;
+}
+
+.info-item h3 {
+    padding-top: 10px;
+    text-align: center;
+    height: 50px;
+}
+
+.info-item hr {
+    width: 40px;
+    color:rgb(171, 158, 85);
+}
+
+.info-item p {
+    padding: 0 10px;
+    color:rgb(123, 123, 119);
+    text-align: center;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.footer {
+    width: 1200px;
+    margin: auto;
+}
+
+.flex-footer {
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+.footer-item {
+    width: 23%;
+}
+
+.footer-item img {
+    width: 230px;
+}
+
+.div-links-media ul li {
+    display: inline-block;
+}
+
+.div-links-media ul li a {
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.div-extern-links ul li {
+    display: block;
+}
+
+.div-extern-links ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+.header-title {
+    color:rgb(171, 158, 85);
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.header-subtitle {
+    color: white;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.input-container {
+    display: inline-flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+  
+.input-container input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: rgb(249, 244, 244);
+    background-color: black;
+}
+  
+.input-container .send-button {
+    background-color: rgb(171, 158, 85);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+}
+  
+.input-container .send-button span {
+    color: #333;
+}
+  
+.input-container .send-button:hover {
+    background-color: #ccc;
+}
+
+@media screen and (max-width: 1024px) {
+    .container-menu-top-media {
+        width: 100%;
+    }
+
+    .container-menu-top-links {
+        width: 100%;
+    }
+
+    .flex-menu-top-media, .flex-menu-top-links {
+        flex-direction: column;
+    }
+
+    .box-media, 
+    .box-contact,
+    .box-search,
+    .box-logo,
+    .box-links {
+       width: 100%;
+       text-align: center;
+    }
+    
+    .box-media,
+    .box-contact {
+        height: 80px;
+    }
+    
+    .box-media a,
+    .box-contact a  {
+        font-size: 25px;
+    }
+
+    .box-links ul li a {
+        font-size: 26px;
+    }
+
+    .box-links {
+        padding: 15px;
+    }
+
+    .fa-magnifying-glass {
+        right: 41vw;
+    }
+
+    .container-wines-promo {
+        width: 100%;
+    }
+
+    .btn-cart {
+        right: 20px;
+    }
+
+    .container-alcools {
+       width: 100%;
+    }
+
+    .alcool-img {
+        height: 200px;
+    }
+
+    .container-menu-alcools {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .container-foods {
+        width: 100%;
+    }
+
+    .container-info {
+        width: 100%;
+    }
+
+    .food-item {
+        width: 30%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .flex-footer {
+        flex-wrap: wrap;
+    }
+
+    .footer-item {
+        width: 50%;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-menu-top-media {
+        width: 100%;
+    }
+
+    .container-menu-top-links {
+        width: 100%;
+    }
+
+    .flex-menu-top-media, .flex-menu-top-links {
+        flex-direction: column;
+    }
+
+    .box-media, 
+    .box-contact,
+    .box-search,
+    .box-logo,
+    .box-links {
+       width: 100%;
+       text-align: center;
+    }
+    
+    .box-media,
+    .box-contact {
+        height: 80px;
+    }
+    
+    .box-media a,
+    .box-contact a  {
+        font-size: 25px;
+    }
+
+    .box-links ul li a {
+        font-size: 26px;
+    }
+
+    .box-links {
+        padding: 15px;
+    }
+
+    .fa-magnifying-glass {
+        right: 39vw;
+    }
+
+    .container-wines-promo {
+        width: 100%;
+    }
+
+    .btn-cart {
+        right: 20px;
+    }
+
+    .container-alcools {
+       width: 100%;
+    }
+
+    .alcool-img {
+        height: 200px;
+    }
+
+    .container-menu-alcools {
+        width: 100%;
+        margin-right: 0px;
+     }
+
+    .container-foods {
+        width: 100%;
+    }
+
+    .container-info {
+        width: 100%;
+    }
+
+    .food-item {
+        width: 30%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .flex-footer {
+        flex-wrap: wrap;
+    }
+
+    .footer-item {
+        width: 50%;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .container-menu-top-media {
+        width: 100%;
+    }
+
+    .container-menu-top-links {
+        width: 100%;
+    }
+
+    .flex-menu-top-media, .flex-menu-top-links {
+        flex-direction: column;
+    }
+
+    .box-media, 
+    .box-contact,
+    .box-search,
+    .box-logo,
+    .box-links {
+       width: 100%;
+       text-align: center;
+    }
+    
+    .box-media,
+    .box-contact {
+        height: 80px;
+    }
+    
+    .box-media a,
+    .box-contact a  {
+        font-size: 23px;
+    }
+
+    .box-links ul li a {
+        font-size: 22px;
+    }
+
+    .box-links {
+        padding: 15px;
+    }
+
+    .fa-magnifying-glass {
+        right: 27vw;
+    }
+
+    .container-wines-promo {
+        width: 100%;
+    }
+
+    .btn-cart {
+        right: 20px;
+    }
+
+    .container-alcools {
+       width: 100%;
+    }
+
+    .flex-menu-inside {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .menu-inside {
+       width: 45%;
+       font-size: 18px;
+       text-align: center;
+    }
+
+    .menu-inside span {
+        display: none;
+    }
+
+    .flex-alcools {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .alcool-item {
+        width: 45%;
+    }
+
+    .alcool-img {
+        height: 200px;
+    }
+
+    .flex-prices {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .flex-buttons {
+        padding: 10px 0;
+    }
+
+    .container-menu-alcools {
+        width: 100%;
+        margin-right: 0px;
+        margin-top: -120px;
+     }
+
+    .container-foods {
+        width: 100%;
+    }
+
+    .foods-title {
+        font-size: 23px;
+    }
+
+    .flex-foods {
+        flex-wrap: wrap;
+    }
+
+    .food-item {
+        width: 50%;
+    }
+
+    .container-info {
+        width: 100%;
+    }
+
+    .flex-info {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .info-item {
+        width: 48%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .flex-footer {
+        flex-direction: column;
+    }
+
+    .footer-item {
+        width: 100%;
+        padding: 0 18vw;
+    }
+}
