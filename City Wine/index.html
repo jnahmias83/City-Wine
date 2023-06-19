@@ -13,7 +13,7 @@
 </head>
 <body>
     <section class="grey-section">
-        <div class="container-menu-top-media flex flex-menu-top-media">
+        <div class="container container-menu-top-media flex flex-menu-top-media">
             <div class="box-media">
                 <a><i class="fa-brands fa-facebook-f"></i></a>
                 <a><i class="fa-brands fa-instagram"></i></a>
@@ -31,7 +31,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-menu-top-links flex flex-menu-top-links">  
+        <div class="container container-menu-top-links flex flex-menu-top-links">  
             <div class="box-links">
                 <ul>
                     <li><a>קטגוריות</a></li>
@@ -48,38 +48,42 @@
 
     <section class="black-section">
         <div class="container-wines-promo">
-            <a class="btn-cart">00.00 &#8362; <i class="fa-solid fa-cart-shopping"></i></a>
-            <a class="circle-num-orders">0</a>
+            <div>
+                <a class="btn-cart">00.00 &#8362; <i class="fa-solid fa-cart-shopping"></i></a>
+                <a class="circle-num-orders">0</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="grey-section">
+        <div class="container container-menu-alcools">
+            <div class="flex flex-menu-inside">
+                <div class="menu-inside">
+                     <a>מבצעים מומלצים &nbsp; <i class="fa-solid fa-percent"></i></a> 
+                     <span>|</span>
+                </div>
+                <div class="menu-inside">
+                    <a>אביזרים &nbsp; <img class="alcool-icone" src="images/cork.png" alt="cork"></a></a>
+                    <span>|</span>
+                </div>
+                <div class="menu-inside">
+                    <a>בירות ותוססים &nbsp; <img class="alcool-icone" src="images/beer.png" alt="beer"></a>
+                    <span>|</span>
+                </div>
+                <div class="menu-inside">
+                    <a>יינות &nbsp; <i class="fa-solid fa-wine-bottle"></i></a>
+                    <span>|</span>
+                </div>
+                <div class="menu-inside active">
+                    <a>אלכוהול</a>
+                    <img class="alcool-icone" src="images/vodka.png" alt="vodka"></a>
+                </div>
+            </div>   
         </div>
     </section>
 
-    <div class="container-menu-alcools">
-        <div class="flex flex-menu-inside">
-            <div class="menu-inside">
-                 <a>מבצעים מומלצים &nbsp; <i class="fa-solid fa-percent"></i></a> 
-                 <span>|</span>
-            </div>
-            <div class="menu-inside">
-                <a>אביזרים &nbsp; <img class="alcool-icone" src="images/cork.png" alt="cork"></a></a>
-                <span>|</span>
-            </div>
-            <div class="menu-inside">
-                <a>בירות ותוססים &nbsp; <img class="alcool-icone" src="images/beer.png" alt="beer"></a>
-                <span>|</span>
-            </div>
-            <div class="menu-inside">
-                <a>יינות &nbsp; <i class="fa-solid fa-wine-bottle"></i></a>
-                <span>|</span>
-            </div>
-            <div class="menu-inside active">
-                <a>אלכוהול</a>
-                <img class="alcool-icone" src="images/vodka.png" alt="vodka"></a>
-            </div>
-        </div>   
-    </div>
-
     <section class="grey-section section-alcools">
-        <div class="container-alcools flex flex-alcools ">
+        <div class="container container-alcools flex flex-alcools ">
             <div class="alcool-item">
                 <img class="alcool-img" src="images/bootle1.png" alt="alcool 1" />
                 <h2>שמפני</h2>
@@ -194,11 +198,11 @@
     <section class="section-photo"></section>
 
     <section>
-        <div class="container-foods">
-            <div class="foods-title">
+        <div class="container container-foods">
+            <h3 class="foods-title">
                 אז מה אתם שותים ליד ? <br/>
                 מצה את הבחירה המושלמת שלך לארוחות
-            </div>
+            </h3>
             <div class="flex flex-foods">
                 <div class="food-item">
                     <img class="food-img" src="images/wines.png" alt="wines" />
@@ -248,7 +252,7 @@
     </section>
 
     <section class="section-info">
-         <div class="container-info flex flex-info">
+         <div class="container container-info flex flex-info">
             <div class="info-item">
                 <div class="align-center">
                     <a class="circle-info"><i class="fa-sharp fa-solid fa-lock"></i></a>
@@ -303,7 +307,7 @@
     </section>
 
     <section class="grey-section">
-         <div class="footer flex flex-footer">
+         <div class="container footer flex flex-footer">
             <div class="footer-item">
                 <img src="images/logo.png" alt="logo" />
                 <div class="div-links-media">
@@ -335,8 +339,8 @@
                 </div>
             </div>
             <div class="footer-item">
-                <div class="header-title">רוצים להשאר מעודכנים?</div>
-                <div class="header-subtitle">הרשמנו לניוזלטר</div>
+                <h2 class="header-title">רוצים להשאר מעודכנים?</h2>
+                <h3 class="header-subtitle">הרשמנו לניוזלטר</h3>
                 <div class="input-container">
                     <input type="text" placeholder="דוא''ל" />
                     <button class="send-button">
